@@ -2,7 +2,7 @@
   "name": "patio-yelp",
   "version": "1.0.0",
   "description": "yelp for patios",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "npm test",
     "start": "nodemon server/index.js"
@@ -21,5 +21,8 @@
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
   }
 }
