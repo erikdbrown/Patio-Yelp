@@ -1,0 +1,25 @@
+{
+  "name": "patio-yelp",
+  "version": "1.0.0",
+  "description": "yelp for patios",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEEBDA/Patio-Yelp.git"
+  },
+  "author": "Beth Johnson and Erik Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEEBDA/Patio-Yelp/issues"
+  },
+  "homepage": "https://github.com/JEEBDA/Patio-Yelp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  }
+}
