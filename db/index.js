@@ -1,5 +1,6 @@
 const mysql = require('mysql');
 const createTables = require('./config');
+const Promise = require('bluebird');
 require('dotenv').config();
 
 const connection = mysql.createConnection({
@@ -12,5 +13,7 @@ const connection = mysql.createConnection({
 connection.connect(err => {
   createTables(connection);
 });
+
+Promise.promisifyAll(connection)
 
 module.exports = connection;
